@@ -4,8 +4,14 @@ title: 環境構築
 ---
 ## 初めに
 Git、VisualStudioCodeを使用してビルド、書き込みまで行うための環境構築方法を記載します。  
-OSはWindowsです。  
+OSはWindowsです。 
 ※2024/9 時点のものを記載しておりますので現在とは異なるところがあるかもしれませんが、ご了承ください。  
+
+## 事前準備
+[RMC-RA4M1(rev2.0)基板 実習マニュアル](https://j-mcr.net/arduino_mcr/data/rmc_ra4m1_rev20_zisyu.pdf)の以下を実施してください。  
+・3.2. 開発環境のダウンロード  
+・3.3. Arduino IDE に「RMC-RA4M1(rev.2.0)」を追加する  
+・3.5. ファームウェアを書き込む  
 
 ## 1.Git環境の構築
 ### 1-1.GitHUbのアカウント作成
