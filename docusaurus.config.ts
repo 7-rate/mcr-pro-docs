@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'MCR Pro Docs',
   tagline: 'マイコンカーAdvanced Class用モータードライブ基板のドキュメント',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.svg',
 
   url: 'https://7-rate.github.io/',
   baseUrl: '/mcr-pro-docs/',
@@ -27,10 +27,6 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/7-rate/mcr-pro-docs/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -38,11 +34,6 @@ const config: Config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/7-rate/mcr-pro-docs/tree/main/',
-          // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -70,25 +61,15 @@ const config: Config = {
           label: 'Docs',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/7-rate/mcr-pro-docs',
-          label: 'GitHub',
-          position: 'right',
-        },
       ],
+    },
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: true,
     },
     footer: {
       style: 'dark',
       links: [
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/7_rate',
-            },
-          ],
-        },
         {
           title: 'More',
           items: [
@@ -97,8 +78,8 @@ const config: Config = {
               to: '/blog',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/7-rate/mcr-pro-docs',
+              label: 'mcr-pro',
+              href: 'https://github.com/7-rate/mcr-pro',
             },
           ],
         },
