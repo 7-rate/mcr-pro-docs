@@ -51,7 +51,7 @@ const config: Config = {
       title: 'MCR Pro Docs',
       logo: {
         alt: 'MCR Pro Docs Logo',
-        src: 'img/logo.svg',
+        src: 'svg/logo.svg',
       },
       items: [
         {

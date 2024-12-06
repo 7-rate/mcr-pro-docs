@@ -1,6 +1,7 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 type FeatureItem = {
   title: string;
@@ -11,16 +12,16 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: '軽量',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/svg/fly.svg').default,
     description: (
       <>
-        MCR Pro MotorDriverはわずかx[g]と軽量です。
+        MCR Pro MotorDriverはわずか41[g]と軽量です。
       </>
     ),
   },
   {
     title: 'はんだ付けは簡単',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/svg/build.svg').default,
     description: (
       <>
         難しいSMD部品は既に取り付けてあります。DIP部品をはんだ付けするだけで完成します。
@@ -29,7 +30,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: '開発環境はVisual Studio Code',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/svg/code.svg').default,
     description: (
       <>
         Visual Studio Code + Platform IOで開発できます。
@@ -61,6 +62,7 @@ export default function HomepageFeatures(): JSX.Element {
             <Feature key={idx} {...props} />
           ))}
         </div>
+        <img src={useBaseUrl("")}
       </div>
     </section>
   );
