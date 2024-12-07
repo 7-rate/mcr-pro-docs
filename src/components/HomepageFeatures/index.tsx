@@ -30,22 +30,31 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: '開発環境はVisual Studio Code',
-    Svg: require('@site/static/svg/code.svg').default,
+    Svg: require('@site/static/svg/setting.svg').default,
     description: (
       <>
         Visual Studio Code + Platform IOで開発できます。
       </>
     ),
   },
+  {
+    title: 'サンプルコード付き',
+    Svg: require('@site/static/svg/code.svg').default,
+    description: (
+      <>
+        サンプルコードを提供しています。すぐに使い始めることができます。
+      </>
+    ),
+  }
 ];
 
 function Feature({title, Svg, description}: FeatureItem) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
+    <div className={styles.feature}>
+      <div>
         <Svg className={styles.featureSvg} role="img" />
       </div>
-      <div className="text--center padding-horiz--md">
+      <div>
         <Heading as="h3">{title}</Heading>
         <p>{description}</p>
       </div>
@@ -56,14 +65,11 @@ function Feature({title, Svg, description}: FeatureItem) {
 export default function HomepageFeatures(): JSX.Element {
   return (
     <section className={styles.features}>
-      <div className="container">
-        <div className="row">
+        <div className={styles.overview}>
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}
         </div>
-        <img src={useBaseUrl("")}
-      </div>
     </section>
   );
 }

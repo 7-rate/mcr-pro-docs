@@ -4,10 +4,32 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
+  padding: 6rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
+  background-image: url("/img/front.webp");
+  background-position: center;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-color: #eee;
+}
+.title {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #222;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  background-color: rgba(255,255,255,0.5);
+  display:inline-block;
+  padding: 1rem;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding-top: 2rem;
+  color: #222;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 @media screen and (max-width: 996px) {
@@ -16,8 +38,19 @@
   }
 }
 
-.buttons {
+.buyLink {
+  background-color: #ccc;
+  padding: 4rem;
+  text-align: center;
+}
+
+.buyh3 {
+  text-align: center;
+}
+
+.buyButton {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
