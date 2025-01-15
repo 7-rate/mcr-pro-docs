@@ -14,7 +14,7 @@ OSはWindowsです。
 ・3.5. ファームウェアを書き込む  
 
 ## 1.Git環境の構築
-### 1-1.GitHUbのアカウント作成
+### 1-1.GitHubのアカウント作成
 [GitHubサイト](https://github.com/)へアクセスして  ボックスに登録用のメールアドレスを入力し、[Sign up for GitHub] ボタンをクリックしてください。  
 ※フリーアドレスでも登録可能です。
 ![alt text](img/environment/image-5.png)  
@@ -84,7 +84,7 @@ https://code.visualstudio.com/download
 ![alt text](img/environment/image-13.png)  
 
 インストールが終了したら画面が切り替わるので「完了」を押してください。  
-![alt text](img/environment/image-14.png)　　
+![alt text](img/environment/image-14.png)
 
 ### 2-2.VisualStudioCodeの拡張機能追加
 #### 日本語化
@@ -131,7 +131,7 @@ Cドライブに「WorkSpace」というフォルダを作成し、その中に�
 
 左のタブの「エクスプローラー」を開いて「リポジトリの複製」を押してください。  
 上部のリポジトリのURLに以下を入力してください。  
-https://github.com/7-rate/dj-mcr-ra4m1.git
+https://github.com/7-rate/mcr-pro.git
 ![alt text](img/environment/image-23.png)
 
 フォルダ選択画面が開くため作成したフォルダを選択して「リポジトリの宛先として選択」を押してください。  
