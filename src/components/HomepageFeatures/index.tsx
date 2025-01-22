@@ -20,7 +20,7 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'はんだ付けは簡単',
+    title: '簡単組み立て',
     Svg: require('@site/static/svg/build.svg').default,
     description: (
       <>
@@ -33,7 +33,8 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/svg/setting.svg').default,
     description: (
       <>
-        Visual Studio Code + Platform IOで開発できます。
+        モダンで便利なVisual Studio Code + Platform IOで開発できます。
+        Windows/macOS/Linux、どのプラットフォームでもすぐに開発を始めることができます。
       </>
     ),
   },

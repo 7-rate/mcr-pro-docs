@@ -1,0 +1,28 @@
+.features {
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.overview {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 996px) {
+}
+
+@media (max-width: 768px) {
+}
+
+.feature {
+  text-align: center;
+  margin: 0 auto;
+  width: 20rem;
+}
+
+
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}
