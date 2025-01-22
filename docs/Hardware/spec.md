@@ -12,6 +12,6 @@ title: 仕様
 回路図のダウンロードは以下から。  
 [Download](@site/static/bin/回路図_ver3.0.pdf)
 
-## 回路パターン
-
 ## 部品リスト(BOM)
+部品リストは以下のGoogleスプレッドシートから。  
+[Googleスプレッドシート](https://docs.google.com/spreadsheets/d/1p_z6xMl2sNYvdv8EsCjQvze3cCMQU7hSXdUYR_EMNKM/edit?usp=sharing)
