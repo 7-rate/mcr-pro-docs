@@ -51,6 +51,16 @@ const config: Config = {
           position: 'left',
           label: 'Documents',
         },
+        {
+          href: 'https://github.com/7-rate/mcr-pro',
+          label: 'GitHub',
+          position: 'right',
+        },
+        {
+          href: 'https://github.com/7-rate/mcr-pro/issues',
+          label: 'Support',
+          position: 'right',
+        },
       ],
     },
     colorMode: {
