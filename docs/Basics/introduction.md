@@ -3,8 +3,11 @@ id: introduction
 title: はじめに
 ---
 
+import Garally from '@site/src/components/Garally';
+
 ## ギャラリー
-T.B.D.
+<Garally />
+
 
 ## MCR Proとは
 MCR ProはRA4M1マイコンボードを用いた、マイコンカーAdvanced Class向けのモータードライブ基板です。  
